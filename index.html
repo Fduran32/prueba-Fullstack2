@@ -24,10 +24,10 @@
                     <a class="nav-link active" href="index.html">Inicio</a>
                 </li>
                 <li class ="nav-item">
-                    <a class="nav-link  active" href="productos.html">Producto</a>
+                    <a class="nav-link  " href="productos.html">Producto</a>
                 </li>
                 <li class ="nav-item">
-                    <a class="nav-link  active" href="contacto.html">Contacto</a>
+                    <a class="nav-link  " href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -37,11 +37,58 @@
 
     <main class="container my-5">
   
-        <section class="bg-primary text-white text-center p-5 rounded mb-5">
-            <h1 class="display-4 fw-bold">Tecnología de vanguardia a tu alcance</h1>
-            <p class="lead">Encuentra los mejores componentes y accesorios para tu setup al mejor precio.</p>
-            <a href="productos.html" class="btn btn-light btn-lg mt-3 fw-semibold">Ver Catálogo</a>
+    <section class="mb-5 text-center">
+    <div class="card bg-dark text-white border-0 shadow rounded overflow-hidden">
+        <img src="img/banner.jpg" class="card-img img-fluid" alt="TechStore Banner" style="max-height: 420px; object-fit: cover;">
+        
+        <div class="card-img-overlay d-flex flex-column justify-content-end align-items-end p-2 pe-3" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 20%);">
+            
+            <a href="productos.html" class="btn fw-bold shadow-lg text-white text-center" style="background-color: #7b2cbf; border-color: #9d4edd; padding: 14px 20px; line-height: 1.2;">
+                Ver Catálogo<br>Completo
+            </a>
+        </div>
+    </div>
+</section>
+
+<section>
+            <h2 class ="text-center mb-4"> Productos Destacados</h2>
+            <div class ="row g-4">
+
+                <div class="col-12 col-md-4">
+                <div class ="card h-100 shadow-sm text-center">
+                     <img src="img/audifonos.jpg" style="height: 200px; object-fit: cover;" class="card-img-top" alt="Audífonos Bluetooth">
+                    <div class = "card-body d-flex flex-column">
+                        <h5 class ="card-title">Audifonos Bluetooth</h5>
+                        <p class ="card-text  fw-bold fs-5" style="color: #00d4ff;">$29.990 </p>
+                        <a href="productos.html" class="btn mt-auto fw-bold text-white shadow-sm" style="background-color: #7b2cbf; border-color: #9d4edd;">Ver Detalle</a>
+                    </div>
+                </div>
+            </div>
+            
+                             <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                       <img src="img/teclado.jpg" style=" height: 200px; object-fit: cover;" class="card-img-top" alt="Teclado Mecanico">
+                    <div class = "card-body d-flex flex-column">
+                            <h5 class="card-title">Teclado Mecánico</h5>
+                            <p class="card-text  fw-bold fs-5" style="color: #00d4ff;">$45.000</p>
+                           <a href="productos.html" class="btn mt-auto fw-bold text-white shadow-sm" style="background-color: #7b2cbf; border-color: #9d4edd;">Ver Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                         <img src="img/mouse.jpg" style=" height: 200px; object-fit: cover;" class="card-img-top" alt="Mouse Gamer">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mouse Gamer</h5>
+                            <p class="card-text  fw-bold fs-5" style="color: #00d4ff;">$19.990</p>
+                            <a href="productos.html" class="btn mt-auto fw-bold text-white shadow-sm" style="background-color: #7b2cbf; border-color: #9d4edd;">Ver Detalle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <br>
 
         <section class="mb-5">
             <h2 class="text-center mb-4">¿Por qué elegirnos?</h2>
@@ -60,51 +107,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="p-4 border rounded bg-light h-100">
-                        <h3 class="h5 mt-2">Pagos Securos</h3>
+                        <h3 class="h5 mt-2">Pago Seguro</h3>
                         <p class="text-muted mb-0">Múltiples medios de pago de forma rápida y segura.</p>
                     </div>
                 </div>
             </div>
         </section>
+
         
-        <section>
-            <h2 class ="text-center mb-4"> Productos Destacados</h2>
-            <div class ="row g-4">
-
-                <div class="col-12 col-md-4">
-                <div class ="card h-100 shadow-sm text-center">
-                     <img src="img/audifonos.jpg" style="height: 200px; object-fit: cover;" class="card-img-top" alt="Audífonos Bluetooth">
-                    <div class = "card-body d-flex flex-column">
-                        <h5 class ="card-title">Audifonos Bluetooth</h5>
-                        <p class ="card-text text-primary fw-bold fs-5">$29.990 </p>
-                        <a href="productos.html" class="btn btn-outline-primary mt-auto">Ver detalle</a>
-                    </div>
-                </div>
-            </div>
-            
-                             <div class="col-12 col-md-4">
-                    <div class="card h-100 shadow-sm text-center">
-                       <img src="img/teclado.jpg" style=" height: 200px; object-fit: cover;" class="card-img-top" alt="Teclado Mecanico">
-                    <div class = "card-body d-flex flex-column">
-                            <h5 class="card-title">Teclado Mecánico</h5>
-                            <p class="card-text text-primary fw-bold fs-5">$45.000</p>
-                            <a href="productos.html" class="btn btn-outline-primary mt-auto">Ver Detalle</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="card h-100 shadow-sm text-center">
-                         <img src="img/mouse.jpg" style=" height: 200px; object-fit: cover;" class="card-img-top" alt="Mouse Gamer">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Mouse Gamer</h5>
-                            <p class="card-text text-primary fw-bold fs-5">$19.990</p>
-                            <a href="productos.html" class="btn btn-outline-primary mt-auto">Ver Detalle</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
                   
                     </main>
 
