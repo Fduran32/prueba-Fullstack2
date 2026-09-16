@@ -109,3 +109,13 @@ body {
     border-bottom: 2px solid var(--cyan-neon);
     text-shadow: 0 0 8px rgba(0, 212, 255, 0.6);
 }
+/* --- ÍCONOS DE REDES SOCIALES EN FOOTER --- */
+.text-neon-hover {
+    transition: all 0.3s ease;
+}
+
+.text-neon-hover:hover {
+    color: var(--cyan-neon) !important;
+    text-shadow: 0 0 12px rgba(0, 212, 255, 0.9);
+    transform: translateY(-3px);
+}
